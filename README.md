@@ -3,13 +3,13 @@
 
 프로그램을 켜보시면 알겠지만 대충 만들었기 때문에 심각하게 불편합니다. 일상에서 사용하는 것보단 필요할 때에만 살포시 사용하시면 되겠습니다.
 
-Windows: [windows.zip](./exports/windows.zip)
+Windows: [windows.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/windows.zip)
 
-OS X: [osx.zip](./exports/osx.zip)
+OS X: [osx.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/osx.zip)
 
-Linux: [linux.zip](./exports/linux.zip)
+Linux: [linux.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/linux.zip)
 
-Android: [android.apk](./exports/simple_chatting.apk)
+Android: [android.apk](https://github.com/is2you2/ehh_chat/raw/master/exports/simple_chatting.apk)
 <br>(물론 안드로이드 앱 스토어에서 '대충채팅'을 검색해도 나옵니다. 한국 스토어에서만 받을 수 있습니다.)
 
 iOS: *출시되지 않음
@@ -32,7 +32,7 @@ iOS: *출시되지 않음
 
 *윈도우 이용자의 경우 headless 프로그램을 제공하지 않으니 그냥 [윈도우용 고도엔진](https://godotengine.org/download/windows)을 다운받아주세요.
 
-서버 스크립트: [Server.gd](./server_side/Server.gd)
+서버 스크립트: [Server.gd](https://github.com/is2you2/ehh_chat/raw/master/server_side/Server.gd)
 
 ## 엔진을 받고난 후에
 여러분은 터미널을 이용한 경험이 있습니까? IT분야에 관심이 없거나 전혀 무관한 분야 사람들은 아마 사용한 적이 없을 것으로 예상됩니다.

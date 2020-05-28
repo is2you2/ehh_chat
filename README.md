@@ -8,7 +8,6 @@ Windows: [windows.zip](./exports/windows.zip)
 OS X: [osx.zip](./exports/osx.zip)
 
 Linux: [linux.zip](./exports/linux.zip)
-<br>(AUR을 통해서 설치할 수도 있습니다.)
 
 Android: [android.apk](./exports/simple_chatting.apk)
 <br>(물론 안드로이드 앱 스토어에서 '대충채팅'을 검색해도 나옵니다. 한국 스토어에서만 받을 수 있습니다.)
@@ -29,7 +28,7 @@ iOS: *출시되지 않음
 <br>서버 프로그램은 사용자가 전달한 텍스트를 나머지 사용자에게 즉시 공유시키는 행동만 있기 때문에 서버 컴퓨터에 서버 프로그램을 제외한 어떠한 흔적도 남지 않습니다.
 <br>채팅 프로그램 역시 그저 메세지를 보내고, 받은 메세지를 보여주는게 전부이기 때문에 어떠한 대화 기록도 저장소에 저장되지 않습니다.
 
-서버 역시 [고도엔진](https://godotengine.org/download/server)으로 제작되었기 때문에 이를 이용하려면 엔진 headless 프로그램이 필요합니다. 다운받아주시면 됩니다.
+서버 역시 고도엔진으로 제작되었기 때문에 이를 이용하려면 [엔진 headless 프로그램](https://godotengine.org/download/server)이 필요합니다. 다운받아주시면 됩니다.
 
 *윈도우 이용자의 경우 headless 프로그램을 제공하지 않으니 그냥 [윈도우용 고도엔진](https://godotengine.org/download/windows)을 다운받아주세요.
 

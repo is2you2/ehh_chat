@@ -5,20 +5,18 @@
 
 Windows: [windows.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/windows.zip)
 
-OS X: [osx.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/osx.zip)
+OS X: *동작하지 않는 것으로 확인됩니다
 
 Linux: [linux.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/linux.zip)
 
 Android: [android.apk](https://github.com/is2you2/ehh_chat/raw/master/exports/simple_chatting.apk)
-<br>(물론 안드로이드 앱 스토어에서 '대충채팅'을 검색해도 나옵니다. 한국 스토어에서만 받을 수 있습니다.)
+<br>(물론 안드로이드 앱 스토어에서 '대충채팅'을 검색해도 나옵니다. 한국 스토어에서 받을 수 있습니다.)
 
 iOS: *출시되지 않음
 
 ## *불친절한 OS X, iOS 결과물
 이 프로그램의 제작자는 애플 컴퓨터를 보유하고 있지 않기 때문에 OS X와 iOS에 대한 지원이 대단히 불친절할 수 있습니다.<br>그게 제작자의 성향으로서~와 같은 강력한 의견 표출같은건 아니고 그냥 기기가 비싸서 아직 장만을 못한겁니다 ...<br>
 개인적으로 애플 좋아합니다. 사과농부는 아닙니다. 그저 지금 당장 손에 없는 것뿐입니다.
-
-[GodotEngine](https://godotengine.org/)에서 OS X 출력을 제공하여 일단 출력해보았을 뿐입니다. 동작테스트를 하지 못하였기 때문에 실제로 동작하지 않을 수 있습니다. 감안하고 이용해주세요.
 
 ## *불친절한 언어 지원
 한국어를 지원합니다. [NotoSansCJKkr-Regular](https://www.google.com/get/noto/#sans-kore) 폰트가 제공하는 곳까지만 입력되고 나머지는 깨지거나 작성된 내용이 보이지 않습니다.<br>막 만든 프로그램에 너무 많은 것을 기대하지 말아주세요 :)
@@ -33,6 +31,7 @@ iOS: *출시되지 않음
 *윈도우 이용자의 경우 headless 프로그램을 제공하지 않으니 그냥 [윈도우용 고도엔진](https://godotengine.org/download/windows)을 다운받아주세요.
 
 서버 스크립트: [Server.gd](https://github.com/is2you2/ehh_chat/raw/master/server_side/Server.gd)
+<br>(우클릭하여 링크를 다른 이름으로 저장해주세요)
 
 ## 엔진을 받고난 후에
 여러분은 터미널을 이용한 경험이 있습니까? IT분야에 관심이 없거나 전혀 무관한 분야 사람들은 아마 사용한 적이 없을 것으로 예상됩니다.
@@ -54,6 +53,24 @@ Linux: 모르면 안됩니다 선생님.
 <br>그러면 이제 컴퓨터를 서버로 이용할 수 있습니다.
 
 ![터미널에 파일을 드래그 드롭한다](./documentation_images/server.gif)
+
+## 서버 IP주소 확인하기
+컴퓨터랑 정말정말 무관하게 살고 있다면 IP주소를 확인하는 방법을 모를 수도, IP주소라는 것을 모를 수도 있는 일입니다.
+
+위에서 열었던 터미널에서 ipconfig(윈도우) 또는 ifconfig(애플)를 입력하면 컴퓨터에 부여된 IP주소를 확인할 수 있습니다.
+
+*윈도우
+<br>IPv4 주소로 표시된 줄에 보입니다
+
+*OS X
+<br>한줄씩 내려가다보면 
+inet 으로 시작하는 줄 바로 옆에 127.0.0.1 과 같은, 숫자 4개가 점으로 연결된 
+IP주소를 확인할 수 있습니다.
+
+확인하다보면 IP주소로 보이는 내용이 꽤 많을 수 있습니다. 사람마다 컴퓨터 설정이 다를 수 있기 때문에 특정지어서 무엇이 정확한 주소다! 라고 할 수는 없습니다.
+<br>터미널의 전문성만 가득한 구성으로 정신이 혼미해지셨다면 그냥 마음 편하게 인터넷에서 IP주소 확인하는 사이트를 통해 확인하실 수도 있습니다.
+
+공유기를 이용하는 컴퓨터에서는 확인되는 주소로 외부에서 접속하지 못할 수 있습니다.
 
 ## 서버에 접속하기
 채팅 프로그램을 열면 아래쪽에 아이피주소를 입력하는 곳이 있습니다. 서버의 아이피주소를 입력하면 정말 아무 과정없이 공개 채팅방에 입장하게 됩니다.

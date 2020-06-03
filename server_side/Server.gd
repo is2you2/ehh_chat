@@ -2,6 +2,8 @@ extends SceneTree
 
 
 var list_user:Array
+# 작업 리스트
+var task_stack:Array
 
 
 var wss:WebSocketServer
@@ -20,16 +22,19 @@ func _init():
 
 func user_join(id,proto):
 	list_user.append(id)
-	send_all(('userJoin: '+str(id)).to_utf8())
+	task_stack.push_back(('userJoin: '+str(id)).to_utf8())
+#	send_all(('userJoin: '+str(id)).to_utf8())
 
 
 func _leave(id,code,reason="No reason"):
 	list_user.erase(id)
-	send_all(('userOut: '+str(id)).to_utf8())
+	task_stack.push_back(('userOut: '+str(id)).to_utf8())
+#	send_all(('userOut: '+str(id)).to_utf8())
 
 
 func _received(id):
-	send_all(wss.get_peer(id).get_packet())
+	task_stack.push_back(wss.get_peer(id).get_packet())
+#	send_all(wss.get_peer(id).get_packet())
 
 
 func send_all(data):
@@ -39,3 +44,5 @@ func send_all(data):
 
 func _idle(delta):
 	wss.poll()
+	for i in task_stack.size():
+		send_all(task_stack.pop_front())

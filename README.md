@@ -14,6 +14,8 @@ Android: [android.apk](https://github.com/is2you2/ehh_chat/raw/master/exports/si
 
 iOS: *출시되지 않음
 
+... 파일 받지 않고 [웹에서 이용하기](https://is2you2.github.io/ehh_chat/)
+
 ## 바로 사용하기
 채팅 프로그램을 열면 아래쪽에 아이피주소를 입력하는 곳이 있습니다. 서버의 아이피주소를 입력하면 정말 아무 과정없이 공개 채팅방에 입장하게 됩니다.
 <br>띠용?

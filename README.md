@@ -14,7 +14,7 @@ Android: [android.apk](https://github.com/is2you2/ehh_chat/raw/master/exports/si
 
 iOS: *출시되지 않음
 
-... 파일 받지 않고 [웹에서 이용하기](https://is2you2.github.io/ehh_chat/)
+... 파일 받지 않고 [PC에서 웹으로 이용하기](https://is2you2.github.io/ehh_chat/)
 
 ## 바로 사용하기
 채팅 프로그램을 열면 아래쪽에 아이피주소를 입력하는 곳이 있습니다. 서버의 아이피주소를 입력하면 정말 아무 과정없이 공개 채팅방에 입장하게 됩니다.
@@ -27,6 +27,14 @@ iOS: *출시되지 않음
 <br>서버 프로그램은 사용자가 전달한 텍스트를 나머지 사용자에게 즉시 공유시키는 행동만 있기 때문에 서버 프로그램을 제외한 어떠한 흔적도 저장소에 남지 않습니다.
 <br>채팅 프로그램 역시 그저 작성한 메세지를 보내고, 받은 메세지를 보여주는게 전부이기 때문에 어떠한 대화 기록도 저장소에 저장되지 않습니다.
 
+## 이 인간이 했던 말을 번복하고 기능을 추가했네 #01
+웹을 제외한 모든 기기(PC 및 모바일) 이용시 클라이언트 프로그램에서 직접 서버를 가동하는 기능이 생겼습니다.  
+텍스트 로그에 상주하던 메시지 분실 오류(정확히는 스크롤 오류)가 이번 업데이트에서 해결되었습니다.  
+아울러 색상 변경 등의 기능을 BBCode 활용을 통해 채팅에 이용할 수 있습니다.  
+자세한 내용은 [BBCode 고도 엔진 문서](https://docs.godotengine.org/en/stable/tutorials/gui/bbcode_in_richtextlabel.html)를 참조하세요
+
+![BBCode 추가된 채팅방 이용](./documentation_images/bbcode.gif)
+
 ## *불친절한 OS X, iOS 결과물
 이 프로그램의 제작자는 애플 컴퓨터를 보유하고 있지 않기 때문에 OS X와 iOS에 대한 지원이 대단히 불친절할 수 있습니다.<br>그게 제작자의 성향으로서~와 같은 강력한 의견 표출같은건 아니고 그냥 기기가 비싸서 아직 장만을 못한겁니다 ...<br>
 개인적으로 애플 좋아합니다. 사과농부는 아닙니다. 그저 지금 당장 손에 없는 것뿐입니다.
@@ -34,12 +42,12 @@ iOS: *출시되지 않음
 ## *불친절한 언어 지원
 한국어를 지원합니다. [NotoSansCJKkr-Regular](https://www.google.com/get/noto/#sans-kore) 폰트가 제공하는 곳까지만 입력되고 나머지는 깨지거나 작성된 내용이 보이지 않습니다.<br>막 만든 프로그램에 너무 많은 것을 기대하지 말아주세요 :)
 
-## 불친절한 주제에 제법 상세한 서버 사용설명서
+## 불친절한 주제에 제법 상세한 Dedicated 서버 사용설명서
 고도엔진으로 제작되었기 때문에 이를 이용하려면 [엔진 headless 프로그램](https://godotengine.org/download/server)이 필요합니다. 다운받아주시면 됩니다.
 
 *윈도우 이용자의 경우 headless 프로그램을 제공하지 않으니 그냥 [윈도우용 고도엔진](https://godotengine.org/download/windows)을 다운받아주세요.
 
-서버 스크립트: [Server.gd](https://github.com/is2you2/ehh_chat/raw/master/server_side/Server.gd)
+서버 스크립트: [Server.gd](https://github.com/is2you2/ehh_chat/raw/master/server_side/Standalone.gd)
 <br>(우클릭하여 링크를 다른 이름으로 저장해주세요)
 
 ## 엔진을 받고난 후에
@@ -84,3 +92,5 @@ IP주소를 확인할 수 있습니다.
 ## 이 프로그램의 향후 개발 계획
 **딱히 없습니다 ^.^**
 <br>기능은 여기서 더 발전시킬 생각이 없습니다.
+
+라고 적었으나 1.10 버전에서 대대적인 업데이트를 실행해버림

@@ -3,11 +3,11 @@
 
 프로그램을 켜보시면 알겠지만 대충 만들었기 때문에 심각하게 불편합니다. 일상에서 사용하는 것보단 필요할 때에만 살포시 사용하시면 되겠습니다.
 
-Windows: [windows.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/ehh_chat_windows.zip)
+Windows: [exe 파일](https://github.com/is2you2/ehh_chat/raw/master/exports/simple_chatting.exe)
 
-OS X: *동작하지 않는 것으로 확인됩니다
+OS X: [zip 파일](https://github.com/is2you2/ehh_chat/raw/master/exports/simple_chatting.zip)
 
-Linux: [linux.zip](https://github.com/is2you2/ehh_chat/raw/master/exports/ehh_chat_linux.zip)
+Linux: [x86_64](https://github.com/is2you2/ehh_chat/raw/master/exports/simple_chatting.x86_64)
 
 Android: [android.apk](https://github.com/is2you2/ehh_chat/raw/master/exports/simple_chatting.apk)
 <br>또는 [앱 스토어](https://play.google.com/store/apps/details?id=org.pjcone.ehhchat)에서 다운로드

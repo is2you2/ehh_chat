@@ -1,5 +1,5 @@
-# 미니 랜덤채팅
-오직 채팅만을 위한 채팅  
+# 대충채팅
+에.... 오직 채팅만을 위한 채팅  
 [구글 플레이 스토어](https://play.google.com/store/apps/details?id=org.pjcone.ehhchat)에서 다운로드
 
 ## 이 인간이 했던 말을 번복하고 기능을 추가했네 #02
